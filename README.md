@@ -14,3 +14,8 @@ We will be using vanilla.js, no build tools are involved.
 1. File in the root directory: [manifest.json](https://developer.chrome.com/docs/extensions/mv3/manifest/)
 
 2. Chrome extension [API reference](https://developer.chrome.com/docs/extensions/reference/).
+
+## Load the extension
+
+Go to the [Extension](chrome://extensions) page, trun the `Developer mode` on,
+then click "Load unpaced".
