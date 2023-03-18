@@ -1,0 +1,3 @@
+html {
+  filter: invert(.9) sepia(.2);
+}
