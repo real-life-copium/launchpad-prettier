@@ -25,4 +25,14 @@ function toggle_wrap() {
   (wrap ? undo_nowrap : nowrap)();
 }
 
+function spy(request, sender) {
+  if (request.type !== 'LAUNCHPAD-PRETTIER') {
+    return;
+  }
+  if (request.message === 'toggle') {
+    toggle_wrap();
+  }
+}
+
 nowrap();
+chrome.runtime.onMessage.addListener(spy);
