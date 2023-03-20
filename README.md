@@ -17,5 +17,5 @@ We will be using vanilla.js, no build tools are involved.
 
 ## Load the extension
 
-Go to the [Extension](chrome://extensions) page, trun the `Developer mode` on,
+Go to the [Extension](chrome://extensions) page, turn the `Developer mode` on,
 then click "Load unpaced".
