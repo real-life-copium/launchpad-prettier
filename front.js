@@ -3,11 +3,15 @@ style.type = 'text/css';
 style.textContent = `
 p {
   width: max-content;
-  max-width: max-content;
+  max-width: 70vw;
 }
 div.comment-text {
   overflow-x: auto;
-}`;
+}
+div.comment-text p {
+  max-width: max-content;
+}
+`;
 
 let wrap = false;
 
